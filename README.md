@@ -1,7 +1,5 @@
 # Project_Data_Analysis
 
-# Project: Data Analysis
-
 This repository contains a data analysis project that uses NLP techniques to analyze a collection of customer complaints about Comcast. The goal is to extract the most prevalent topics from the unstructured text data and evaluate the results using topic modeling techniques.
 
 ## Project Overview
