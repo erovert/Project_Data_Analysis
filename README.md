@@ -50,8 +50,8 @@ This script will:
 
 README:
 
-bash
-python script.py
+
+```python script.py
 
 Preprocess the text data.
 
