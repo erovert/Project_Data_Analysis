@@ -39,7 +39,9 @@ python -m spacy download en_core_web_sm
 Clone the repository:
 
 git clone https://github.com/username/ProjectDataAnalysis.git
+
 cd ProjectDataAnalysis
+
 Run the script:
 
 python data_analysis_script.py
