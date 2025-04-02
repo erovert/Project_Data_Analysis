@@ -51,7 +51,9 @@ This script will:
 README:
 
 
-```python script.py```
+```
+python script.py
+```
 
 Preprocess the text data.
 
