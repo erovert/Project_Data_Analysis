@@ -4,7 +4,7 @@ This repository contains a data analysis project that uses NLP techniques to ana
 
 ## Project Overview
 
-In this project, I:
+In this project:
 - **Preprocessed** the raw complaint texts using SpaCy for lemmatization, stop-word removal, and tokenization.
 - **Vectorized** the clean texts using two techniques: TF-IDF and Word2Vec-based embeddings.
 - **Extracted topics** using two methods: Latent Dirichlet Allocation (LDA) and Non-negative Matrix Factorization (NMF).
@@ -50,7 +50,6 @@ python data_analysis_script.py
 ```
 This script will:
 
-README:
 
 Preprocess the text data.
 
@@ -61,9 +60,11 @@ Build Word2Vec document embeddings, perform clustering, and extract topics from 
 Print coherence scores and sample topics in the console.
 
 Results and Reflection
+
 The TF-IDF pipeline (especially with NMF) produced more coherent and interpretable topics (with coherence scores around 0.51) compared to the Word2Vec-based approach. These results can be further improved by tuning hyperparameters, such as the number of topics, and refining the preprocessing steps.
 
 Future Improvements
+
 Potential future improvements include:
 
 Tuning model parameters (e.g., the number of topics, NMF iterations) to enhance coherence.
