@@ -30,10 +30,12 @@ The project requires the following Python libraries:
 
 To install the dependencies, run:
 
-
+```
 pip install pandas spacy tqdm numpy scikit-learn gensim
+```
+```
 python -m spacy download en_core_web_sm
-
+```
 
 ## How to Run the Project
 Clone the repository:
