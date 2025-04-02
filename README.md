@@ -38,15 +38,12 @@ python -m spacy download en_core_web_sm
 ## How to Run the Project
 Clone the repository:
 
-bash
-Copy
 git clone https://github.com/username/ProjectDataAnalysis.git
 cd ProjectDataAnalysis
 Run the script:
 
-bash
-Copy
-python script.py
+python data_analysis_script.py
+
 This script will:
 
 Preprocess the text data.
