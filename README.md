@@ -48,6 +48,13 @@ python data_analysis_script.py
 
 This script will:
 
+README:
+
+bash
+Copy
+python script.py
+When
+
 Preprocess the text data.
 
 Build the TF-IDF representation and extract topics using LDA and NMF.
