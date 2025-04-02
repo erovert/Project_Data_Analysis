@@ -51,9 +51,7 @@ This script will:
 README:
 
 bash
-Copy
 python script.py
-When
 
 Preprocess the text data.
 
