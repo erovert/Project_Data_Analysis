@@ -12,7 +12,7 @@ In this project, I:
 
 ## Repository Contents
 
-- **`script.py`**: The main Python script containing the complete analysis pipeline.
+- **`data_analysis_script.py`**: The main Python script containing the complete analysis pipeline.
 - **`comcast_consumeraffairs_complaints.csv`**: The dataset of customer complaints.
 - **`README.md`**: This file.
 
@@ -30,11 +30,12 @@ The project requires the following Python libraries:
 
 To install the dependencies, run:
 
-```bash
+
 pip install pandas spacy tqdm numpy scikit-learn gensim
 python -m spacy download en_core_web_sm
 
-How to Run the Project
+
+## How to Run the Project
 Clone the repository:
 
 bash
