@@ -38,11 +38,11 @@ python -m spacy download en_core_web_sm
 ## How to Run the Project
 Clone the repository:
 ```
-git clone https://github.com/username/ProjectDataAnalysis.git
+git clone https://github.com/erovert/Project_Data_Analysis.git
 ```
 
 ```
-cd ProjectDataAnalysis
+cd Project_Data_Analysis
 ```
 Run the script:
 ```
