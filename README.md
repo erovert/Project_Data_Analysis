@@ -38,6 +38,7 @@ python -m spacy download en_core_web_sm
 ```
 
 ## How to Run the Project
+
 Clone the repository:
 ```
 git clone https://github.com/erovert/Project_Data_Analysis.git
@@ -61,11 +62,11 @@ Build Word2Vec document embeddings, perform clustering, and extract topics from 
 
 Print coherence scores and sample topics in the console.
 
-Results and Reflection
+## Results and Reflection
 
 The TF-IDF pipeline (especially with NMF) produced more coherent and interpretable topics (with coherence scores around 0.51) compared to the Word2Vec-based approach. These results can be further improved by tuning hyperparameters, such as the number of topics, and refining the preprocessing steps.
 
-Future Improvements
+## Future Improvements
 
 Potential future improvements include:
 
