@@ -25,7 +25,6 @@ The project requires the following Python libraries:
 - numpy
 - scikit-learn
 - gensim
-- matplotlib (optional, if you add visualization)
 - scikit-learn's KMeans for clustering
 
 To install the dependencies, run:
