@@ -37,16 +37,16 @@ if __name__ == '__main__':
     df['c_text'] = df['text'].progress_apply(process_text)
     
     print("Sample preprocessed texts:")
-    print(df[['text', 'clean_text']].head())
+    print(df[['text', 'c_text']].head())
     
     # Tokenize texts for topic modeling
-    tokenized_texts = [text.split() for text in df['clean_text']]
+    tokenized_texts = [text.split() for text in df['c_text']]
     
 
     # Section 2  Build the TF-IDF
 
     tfidf_vectorizer = TfidfVectorizer(max_features=1000)
-    tfidf_matrix = tfidf_vectorizer.fit_transform(df['clean_text'])
+    tfidf_matrix = tfidf_vectorizer.fit_transform(df['c_text'])
     print("\nTF-IDF matrix shape:", tfidf_matrix.shape)
     
     # gensim dictionary & bag-of-words corpus for LDA
@@ -106,7 +106,7 @@ if __name__ == '__main__':
     clusters = kmeans.fit_predict(doc_vectors)
     df['cluster'] = clusters
     print("\nSample document clusters (Word2Vec based):")
-    print(df[['clean_text', 'cluster']].head())
+    print(df[['c_text', 'cluster']].head())
     
 
     # Section 6 Topic Modeling on Word2Vec-based Bag-of-Clusters
